@@ -100,4 +100,3 @@ coffeeInput.addEventListener('keyup', updateCoffeeInput);
 roastSelection.addEventListener('input', updateCoffees);
 addCoffeeBtn.addEventListener('click', addCoffee);
 
-

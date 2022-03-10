@@ -11,8 +11,19 @@
     transition: all 0.3s linear;
 }
 
-body {
-    background-color: rosybrown;
+/*body {*/
+/*    background-color: rosybrown;*/
+/*}*/
+
+.background-image {
+    background-image: url("images/Image 3-10-22 at 10.07 AM.jpg");
+    min-height: 100%;
+    min-width: 781px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 #coffees {
@@ -22,6 +33,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: transparent;
 }
 
 #roast-selection {
@@ -66,8 +78,6 @@ body {
     border-radius: 30px 15px;
     margin-top: 1em;
     width: 60%;
-
-
 }
 
 .coffee-list:hover {
@@ -75,6 +85,79 @@ body {
     border: 2px solid black;
     text-align: center;
     background-color: rgba(167, 125, 84, 60%);
+}
+
+.navbar {
+    height: auto;
+    background-image: #C9B09A;
+}
+
+.logo {
+    display: block;
+    height: 75px;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#DBD0BD;
+    opacity: 50%;
+    /*background: transparent;*/
+    color:#4b4c4d;
+}
+
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basic li {
+    padding:0 10px;
+}
+
+.footer-basic ul a {
+    color:#885A3A;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity:1;
+}
+
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+    color: #885A3A;
+}
+
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#885A3A;
+    margin-bottom:0;
 }
 
 .card {
