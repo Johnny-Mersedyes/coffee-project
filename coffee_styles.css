@@ -47,6 +47,7 @@
     padding: 0.5em;
     border-style: solid;
     border-radius: 15px 30px;
+    background-color: rgba(167, 125, 84, 50%);
 
 }
 .main-btn {
@@ -84,7 +85,7 @@
     border-radius:30px 15px;
     border: 2px solid black;
     text-align: center;
-    background-color: rgba(167, 125, 84, 60%);
+    background-color: rgba(167, 125, 84, 80%);
 }
 
 .navbar {
@@ -161,14 +162,18 @@
 }
 
 .card {
-    background-color: rgba(201, 176, 154, 60%)!important;
+    background-color: rgba(201, 176, 154, 80%)!important;
 }
 #coffee-button:hover {
     border-radius: 15px 30px;
-    background-color: rgba(167, 125, 84, 50%);
+    background-color: rgba(167, 125, 84, 80%);
 }
 
-.btn {
+#submit:hover {
     border-radius: 15px 30px;
-    background-color: rgba(167, 125, 84, 50%);
+    background-color: rgba(167, 125, 84, 80%);
+}
+
+::placeholder {
+    color: black;
 }
