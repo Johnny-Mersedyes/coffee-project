@@ -1,0 +1,78 @@
+
+
+
+
+8:43
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+#coffees {
+    margin: 1em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#roast-selection {
+    width: 50%;
+}
+
+.coffee-name {
+    width: 50%;
+}
+.drop-down-choices {
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 15px 30px;
+
+}
+.main-btn {
+    position: relative;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #2d333b;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.form:hover{
+    /*border-style: solid;*/
+    border-radius: 15px 30px;
+    background-color: rgba(169, 239, 169, 0.99);
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+
+
+}
+
+#submit, #coffee-button {
+    border-radius: 30px 15px;
+    margin-top: 1em;
+    width: 50%;
+}
+
+.coffee-list:hover {
+    border-radius:30px 15px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgba(169, 239, 169, 0.99);
+}
